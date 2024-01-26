@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.op{
+  background-image: url("net.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  isolation:isolate;
+}
+.op::after{
+  content:'';
+  position:absolute;
+  z-index:-1;
+  inset:0;
+  background:black;
+  opacity:.55;
+}
+h1{
+  color: red;
+  font-variant:small-caps;
+  font-size: 70px;
+}
+.n{
+  position: absolute;
+  left: 80px;
+  top:20px;
+}
+.se{
+  position: absolute;
+  right: 300px;
+  top:037px;
+  border-radius: 40px;
+  size: 50px;
+  color: none;
+  border-color: #fff;
+  height:50px;
+}
+.select-box{
+  border:1px;
+  padding:0 30px 0 15px;
+  width:100%;
+  color:white;
+  background-color:transparent;
+  font-size:20px;
+}
+.si{
+  position: absolute;
+  right: 150px;
+  top:36px;
+
+}
+.styled {
+  border: 0;
+  line-height: 2.1;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+h2{
+  color: aliceblue;
+  font-size:50px;
+  font-weight:bold;
+}
+.the{
+  position:absolute;
+  top:200px;
+  margin:50px;
+  padding: 50px;
+  margin-top: 0px;
+  text-align: center;
+}
+h4{
+  color:#fff;
+}
+.button{
+  height:36px;
+  width:138px;border-radius: 10px;
+  background-color: red;
+  color: #fff;
+  
+}
+h6{
+  font-size: 30px;
+}
+.box{
+  display:flex;
+  align-items:center;
+
+}
+.form-box{
+  padding:10px;
+  border-radius:5px;
+  background-color:transparent;
+  position: absolute;
+  left:440px;
+}
+.form-box input{
+  font-size:26px;
+  padding-right: 30px;
+  border-radius: 5px;
+  background:transparent;
+  color: #fff;
+  border-style: double;
+  box-sizing: var();
+}
